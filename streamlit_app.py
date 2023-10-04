@@ -21,7 +21,7 @@ if st.button('Generar ensayo'):
     response = openai.Completion.create(
         engine='gpt-3.5-turbo-instruct',
         prompt=instructions,
-        max_tokens=2000,
+        max_tokens=4000,
         
         n=1,
         stop=None,
